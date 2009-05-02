@@ -1,0 +1,6 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ASK {
+?place <http://dbpedia.org/property/wikiPageUsesTemplate> <http://dbpedia.org/resource/Template:infobox_department_of_france>.
+?place <http://dbpedia.org/ontology/populationTotal> ?pop .
+FILTER(xsd:integer(?pop) > 100000000)
+}
