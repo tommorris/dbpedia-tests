@@ -4,11 +4,8 @@ If you find something weird in dbpedia that's not just an inaccuracy in Wikipedi
 
 ## SPARQL testing
 
-Testing dbpedia is easy! You simply use the SPARQL ASK query. Then you specify in the filename whether or not it should evaluate as true or false. The file name should either end with _true.sparql or _false.sparql and contain no other queries except an ASK query.
+Testing dbpedia is easy! You simply use the SPARQL ASK query. Then you specify in the filename whether or not it should evaluate as true or false. The file name should either end with \_true.sparql or \_false.sparql and contain no other queries except an ASK query.
 
-# To-do
+# Running tests
 
-- Write a test-harness (currently planning to write a Python or Ruby script that uses curl to post the query to dbpedia.org/sparql and parse back the JSON response.
-- Write tests
-- ???
-- PROFIT
+You need to have Ruby 1.8.6+ installed, as well as the Curl library and the Curb gem (Ruby bindings for Curl). Just run test.rb and watch the results come flowing in.
