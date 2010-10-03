@@ -1,0 +1,7 @@
+# Due to a parsing error, population totals are often wrong.
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ASK {
+<http://dbpedia.org/resource/Barcelona> <http://dbpedia.org/ontology/populationTotal> ?pop .
+FILTER(xsd:integer(?pop) > 10000000)
+}
