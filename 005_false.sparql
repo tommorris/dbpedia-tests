@@ -1,1 +1,3 @@
+# Justification: schoolTradition is supposed to be an object property not a literal property.
+
 ASK { <http://dbpedia.org/resource/Heraclitus> <http://dbpedia.org/property/schoolTradition> """Not considered to belong to any school of thought, but later subscribers to the philosophy were "Heracliteans."""" }
