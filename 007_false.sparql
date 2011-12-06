@@ -1,0 +1,6 @@
+# Due to a parsing error, Elvis Presley is given the dbpprop:title "Frank Sinatra".
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ASK {
+<http://dbpedia.org/resource/Elvis_Presley> <http://dbpedia.org/property/title> "Frank Sinatra".
+}
