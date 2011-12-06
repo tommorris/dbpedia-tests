@@ -2,5 +2,5 @@
 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ASK {
-<http://dbpedia.org/resource/Elvis_Presley> <http://dbpedia.org/property/title> "Frank Sinatra".
+<http://dbpedia.org/resource/Elvis_Presley> <http://dbpedia.org/property/title> "Frank Sinatra"@en.
 }
